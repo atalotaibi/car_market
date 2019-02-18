@@ -1,0 +1,54 @@
+.bg-dark{
+    background-color: #0a3861!important;
+}
+
+.card-btn{
+    width: 100%;
+}
+
+.img-size{
+    height: 100%!important;
+    width: 100%;
+}
+.img-size1{
+    width: 500px;
+}
+.button1 {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50; /* Green */
+}
+.margin {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 30px;
+  }
+.margin1 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+.margin2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.title-font{
+    font-family:"Courier New", Courier, monospace;
+    font-size: 3em;
+    color: red;
+}
+.description-font{
+    font-family: Snell Roundhand, cursive;
+    font-size: 2em;
+}
+.acivities-font1{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2em;
+    color: red;
+}
+.fixed-tight{
+    height: 1x!important;
+}
+.height{
+    height:100%!important;
+}

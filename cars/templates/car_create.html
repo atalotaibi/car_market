@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block title %}Create{% endblock title %}
+
+{% block content %}
+<form action="{% url 'car-create' %}" method="POST" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{car|crispy}}
+  
+  <a class="navbar-brand" href="{% url 'car-list' %}"></a><button type="submit" class="btn btn-outline-success margin1">Create</button></a>
+</form>
+{% endblock content %}
